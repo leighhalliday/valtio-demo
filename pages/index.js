@@ -1,5 +1,5 @@
-import { useEffect } from "react";
-import { proxy, useSnapshot } from "valtio";
+import Times from "../src/components/Times";
+import Count from "../src/components/Count";
 
 export default function Home() {
   return (
@@ -8,12 +8,4 @@ export default function Home() {
       <Count />
     </div>
   );
-}
-
-function Times() {
-  return <div className="Times">TIMES</div>;
-}
-
-function Count() {
-  return <button className="Count">CLICK</button>;
 }
